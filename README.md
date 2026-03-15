@@ -30,6 +30,8 @@ USB 3 PORTS: YES</br>
 THUNDERBOLT 3: YES (as far as i know)</br>
 AUDIO JACK: NOT TESTED FOR</br>
 HDMI: NOT TESTED FOR</br>
+DRM: NOT TESTED</br>
+APPLE ID SERVICES (imessage, facetime): NOT TESTED</br>
 CAMERA: YES</br>
 KEYBOARD: YES</br>
 TRACKPAD: NO (use an external mouse)</br>
