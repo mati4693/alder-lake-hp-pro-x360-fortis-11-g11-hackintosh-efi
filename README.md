@@ -46,6 +46,10 @@ The touchscreen (Wacom Device) has the ACPI path of: ```\_SB.PC00.I2C0.TPL0```</
 I believe the trackpad is an I2C-HID device or I2C-ELAN device, since in Device Management it says I2C-HID, while its HID is: ```ELAN0799```
 If you would like to contribute, then you could give it a shot at fixing the trackpad.
 
+# Keyboard
+The Windows key is the equivalent of the Command key. </br>
+The Alt key is the equivalent of the Option key
+
 # Upgrading to a newer macOS
 If you want to use a newer macOS, then you would have to grab a newer version of AirportItlwm.kext, which is required for Wifi, matching your macOS.
 
