@@ -7,8 +7,8 @@ I have successfully been able to run macOS 10.15 (Catalina), which is also the o
 I installed the macOS userspace onto a USB drive, so i could externally boot into macOS, without overwriting the Windows on the internal SSD. I don't know the stability of this EFI running on an SSD, because of possible missing SATA kexts.
 
 # Files
-In the EFI folder, i have the raw EFI with macOS 10.15 recovery environment.
-In the "hackintosh" folder, i have included all the tools and files i used to create the EFI, but it's quite messy.</br>
+In the EFI folder, i have the raw EFI with macOS 10.15 recovery environment.</br>
+In the "hackintosh" folder, i have included all the tools and files i used to create the EFI, but it's quite messy.
 
 # BIOS settings
 (if setting not mentioned then leave unchanged)</br>
