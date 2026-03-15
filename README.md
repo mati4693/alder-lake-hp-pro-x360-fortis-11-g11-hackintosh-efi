@@ -50,7 +50,7 @@ If you would like to contribute, then you could give it a shot at fixing the tra
 If you want to use a newer macOS, then you would have to grab a newer version of AirportItlwm.kext, which is required for Wifi, matching your macOS.
 
 # Slow boot times
-If it spends a long time at the loading bar, then you probably have conflicting kexts, especialy AirportItlwm.kext, Itlwm.kext or the IntelBluetooth kexts. If this happens then remove every of those kexts, and add one at a time.
+If it spends a long time (10-15 minutes) at the loading bar, then you probably have conflicting kexts, especialy AirportItlwm.kext, Itlwm.kext or the IntelBluetooth kexts. If this happens then remove every of those kexts, and add one at a time.
 
 # Conclusion
 Just to state it, you're free to modify and improve this EFI (try to add trackpad functionality). You're allowed use this EFI to your own extent. I don't need to be credited, but it would be nice. I won't be maintaining this repository any further.</br>
