@@ -23,15 +23,15 @@ BATTERY STATUS: YES</br>
 WIFI: YES</br>
 ETHERNET: YES</br>
 BLUETOOTH: YES</br>
-VOLUME: YES (even with the volume keys F4, F5, F6)</br>
+VOLUME: YES (even with the volume keys FN + F4, F5, F6)</br>
 SPEAKERS: YES</br>
 MICROPHONE: YES</br>
 USB 3 PORTS: YES</br>
 THUNDERBOLT 3: YES (as far as i know)</br>
-AUDIO JACK: NOT TESTED FOR</br>
-HDMI: NOT TESTED FOR</br>
+AUDIO JACK: YES</br>
+HDMI: NOT TESTED</br>
 DRM: NOT TESTED</br>
-APPLE ID SERVICES (imessage, facetime): NOT TESTED</br>
+APPLE ID SERVICES (imessage, facetime): YES</br>
 CAMERA: YES</br>
 KEYBOARD: YES</br>
 TRACKPAD: NO (use an external mouse)</br>
