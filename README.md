@@ -6,6 +6,10 @@ I wanted to run Hackintosh on my school laptop, which was the aforementioned HP 
 I have successfully been able to run macOS 10.15 (Catalina), which is also the only one i have tried. I think it surely can run newer OS'es, but the CPU would have a hard time catching up.</br>
 I installed the macOS userspace onto a USB drive, so i could externally boot into macOS, without overwriting the Windows on the internal SSD. I don't know the stability of this EFI running on an SSD, because of possible missing SATA kexts.
 
+# Files
+In the EFI folder, i have the raw EFI with macOS 10.15 recovery environment.
+In the "hackintosh" folder, i have included all the tools and files i used to create the EFI, but it's quite messy.</br>
+
 # BIOS settings
 (if setting not mentioned then leave unchanged)</br>
 Secure Boot -> OFF</br>
@@ -19,9 +23,9 @@ BATTERY STATUS: YES</br>
 WIFI: YES</br>
 ETHERNET: YES</br>
 BLUETOOTH: YES</br>
-VOLUME: YES</br>
+VOLUME: YES (even with the volume keys F4, F5, F6)</br>
 SPEAKERS: YES</br>
-MICROPHONE: NOT TESTED FOR</br>
+MICROPHONE: YES</br>
 USB 3 PORTS: YES</br>
 THUNDERBOLT 3: YES (as far as i know)</br>
 AUDIO JACK: NOT TESTED FOR</br>
