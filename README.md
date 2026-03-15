@@ -54,6 +54,7 @@ The Alt key is the equivalent of the Option key
 If you want to use a newer macOS, then you would have to grab a newer version of AirportItlwm.kext, which is required for Wifi, matching your macOS.
 
 # Slow boot times
+(The first boot will always be very slow. This section only applies if the macOS userspace already has been installed)</br>
 If it spends a long time (10-15 minutes) at the loading bar, then you probably have conflicting kexts, especialy AirportItlwm.kext, Itlwm.kext or the IntelBluetooth kexts. If this happens then remove every of those kexts, and add one at a time.
 
 # Conclusion
