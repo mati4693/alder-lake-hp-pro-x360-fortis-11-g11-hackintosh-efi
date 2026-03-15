@@ -15,6 +15,7 @@ Advanced/System options/VTd -> OFF</br>
 Advanced/System options/DMA -> OFF</br>
 
 # Functionalities
+BATTERY STATUS: YES</br>
 WIFI: YES</br>
 ETHERNET: YES</br>
 VOLUME: YES</br>
@@ -24,10 +25,11 @@ USB 3 PORTS: YES</br>
 THUNDERBOLT 3: YES (as far as i know)</br>
 AUDIO JACK: NOT TESTED FOR</br>
 HDMI: NOT TESTED FOR</br>
-CAMERA: NOT TESTED FOR</br>
+CAMERA: YES</br>
 KEYBOARD: YES</br>
 TRACKPAD: NO (use an external mouse)</br>
-RTC: NO (resets every reboot with macOS)
+RTC: NO (resets every reboot with macOS)</br>
+LAPTOP CLOSED: NO (only turns screen off, but doesnt logs out and go to sleep, when closing laptop)
 
 # Trackpad
 I have tried to make the trackpad work, but I'm at my whits end. I definitely know that it's I2C based, but the I2C controller/device (Intel 54e8) onboard the laptop isn't supported by Hackintosh as of 3/2026.</br>
@@ -35,6 +37,7 @@ In Windows Device Manager, the trackpad has the ACPI path of: ```\_SB.PC00.I2C0.
 The touchscreen (Wacom Device) has the ACPI path of: ```\_SB.PC00.I2C0.TPL0```</br>
 
 I believe the trackpad is an I2C-HID device or I2C-ELAN device, since in Device Management it says I2C-HID, while its HID is: ```ELAN0799```
+If you would like to contribute, then you could give it a shot at fixing the trackpad.
 
 # Upgrading to a newer macOS
 If you want to use a newer macOS, then you would have to grab a newer version of AirportItlwm.kext, which is required for Wifi, matching your macOS.
