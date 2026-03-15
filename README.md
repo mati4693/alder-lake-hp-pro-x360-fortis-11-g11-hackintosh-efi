@@ -18,6 +18,7 @@ Advanced/System options/DMA -> OFF</br>
 BATTERY STATUS: YES</br>
 WIFI: YES</br>
 ETHERNET: YES</br>
+BLUETOOTH: YES</br>
 VOLUME: YES</br>
 SPEAKERS: YES</br>
 MICROPHONE: NOT TESTED FOR</br>
